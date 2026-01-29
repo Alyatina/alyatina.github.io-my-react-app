@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  width: 100%;
+}
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: "Segoe UI", sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  margin-top: 30px;
+}
+.logo {
+  height: 60px;
+  margin: 0 15px;
+  transition: transform 0.3s;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+.main {
+  width: 100%;
+  max-width: 900px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.card {
+  width: 100%;
+  max-width: 520px;
+  background: #ffffff;
+  color: #333;
+  padding: 50px 45px;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+.card h1 {
+  margin-bottom: 10px;
+}
+.subtitle {
+  font-size: 15px;
+  color: #777;
+  margin-bottom: 25px;
+}
+.card input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.card button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background-color: #667eea;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.card button:hover {
+  background-color: #5563c1;
+}
+.greeting {
+  margin-top: 20px;
+  font-weight: 500;
+}
+.my-component {
+  margin-top: 35px;
+  width: 100%;
+  max-width: 520px;
+  background: rgba(255, 255, 255, 0.18);
+  padding: 35px 30px;
+  border-radius: 22px;
+  text-align: center;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+.my-component:hover {
+  transform: translateY(-6px);
+  background: rgba(255, 255, 255, 0.25);
+}
+.my-component h2 {
+  margin-bottom: 6px;
+  font-size: 22px;
+  color: #fff;
+}
+.my-component-subtitle {
+  font-size: 14px;
+  color: #e0e0e0;
+  margin-bottom: 22px;
+}
+.like-button {
+  padding: 12px 22px;
+  border-radius: 14px;
+  border: none;
+  background: linear-gradient(135deg, #ff6b81, #ff4757);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.like-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(255, 71, 87, 0.4);
+}
+.my-component-content {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.my-component-content p {
+  font-size: 15px;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
